@@ -1,5 +1,5 @@
 {
-  "name": "startwithbitcoin",
+  "name": "spacemeshfyi",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -16,7 +16,8 @@
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "remark": "^13.0.0",
-    "remark-html": "^13.0.1"
+    "remark-html": "^13.0.1",
+    "react-scripts": "^3.4.1"
   },
   "devDependencies": {
     "prop-types": "^15.8.1",
