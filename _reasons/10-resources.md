@@ -23,4 +23,4 @@ type: reason
 - *[Hardware Planner](https://plan.smesh.online/)* — An interactive website for planning your Smeshing setup, allowing you to enter the specifics of your hardware to confirm feasibility.
 - *Video Tutorials* — The two primary channels for video instruction include [Miner on Demand](https://www.youtube.com/@minerondemand) (Windows) and [Hake Hardware](https://www.youtube.com/@hakehardware) (Unix).
 
-Still have questions? Feel free to [reach out](/about), and I’ll try my best to help.
+Still have questions? Feel free to [contact me](/about), or visit one of the [Spacemesh communities](/communities).
