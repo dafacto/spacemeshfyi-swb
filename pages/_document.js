@@ -26,7 +26,7 @@ class MyDocument extends Document {
 						><img
 							src="https://sa.spacemesh.fyi/noscript.gif"
 							alt=""
-							referrerpolicy="no-referrer-when-downgrade"
+							referrerPolicy="no-referrer-when-downgrade"
 					/></noscript>
         </body>
       </Html>

@@ -15,4 +15,4 @@ Spacemesh is run by a [team](https://spacemesh.io/about/) of approximately 30 pe
 - [Lane Rettig](https://twitter.com/lrettig) (VP Research & Development)
 
 
-Let's now learn [how to mine SMH! →](/mining)
+Let’s now learn [how to mine SMH! →](/mining)
