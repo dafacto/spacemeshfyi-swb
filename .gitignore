@@ -1,3 +1,7 @@
+# Basic stuff
+_site
+.DS_Store
+
 # Logs
 logs
 *.log
