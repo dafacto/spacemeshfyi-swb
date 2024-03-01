@@ -21,14 +21,14 @@ const About = () => {
         <section>
           <div className='container narrow'>
             <p>
-							As someone interested in information design, and noting that 
+							<strong>Who’s behind this site?</strong> — As someone interested in information design, and noting that 
 							Spacemesh was missing a resource suitable for a person’s first 
 							contact with the project, I created this site as the beginner’s 
 							guide that I would send to a friend, or share on social media.
             </p>
             <p>
               It specifically avoids confusing technology that’s not essential
-              for the average person to get involved. <strong>If you enjoy the site, please share it with others!</strong>
+              for the average person to get involved.
             </p>
             <p>
               I’m also the creator of <a href='https://smeshwallet.com'>SmeshWallet</a>, the popular free, and easy-to-use web wallet for Spacemesh.
@@ -46,16 +46,14 @@ const About = () => {
               .
             </p>
             <p>
-              For anyone interested in donating to the effort of maintaining
-              this feel free to send a tip to:
+              <strong>Acknowledgements</strong> — I'd like to say thank you to all those who provided useful feedback from the Spacemesh community, including @earl, @bheleu, and @dmytro.
             </p>
             <p>
-						<strong>
-							sm1qqqqqqzgemakwhq9sg552pl3f6mapxet242q2hg6t9lsm
-						</strong>
+              <strong>Donations</strong> — For anyone interested in donating to the effort of maintaining
+              this feel free to send a tip to: <pre>sm1qqqqqqzgemakwhq9sg552pl3f6mapxet242q2hg6t9lsm</pre> Or, alternatively, share the site with someone!
             </p>
             <p>
-              Just in case it’s necessary, this entire site is copyright{' '}
+              <strong>Copyright</strong> — Just in case it’s necessary, this entire site is copyright{' '}
               {currentYear}!
             </p>
           </div>
