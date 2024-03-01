@@ -1,4 +1,4 @@
-import { getReasons, getResources, getBySlug } from '../lib/api';
+import { getReasons, getBySlug } from '../lib/api';
 import { NextSeo } from 'next-seo';
 import Link from 'next/link';
 import markdownToHtml from '../lib/markdownToHtml';
@@ -62,16 +62,6 @@ export async function getStaticProps({ params }) {
     additionalPages = getReasons(['number', 'slug', 'title', 'intro', 'type']);
   }
 
-  if (post.type === 'resource') {
-    additionalPages = getResources([
-      'number',
-      'slug',
-      'title',
-      'intro',
-      'type',
-    ]);
-  }
-
   return {
     props: {
       post: {
@@ -85,12 +75,9 @@ export async function getStaticProps({ params }) {
 
 export async function getStaticPaths() {
   const reasons = getReasons(['slug']);
-  const resources = getResources(['slug']);
-
-  const all = reasons.concat(resources);
 
   return {
-    paths: all.map((item) => {
+    paths: reasons.map((item) => {
       return {
         params: {
           slug: String(item.slug),
