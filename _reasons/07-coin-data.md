@@ -1,7 +1,7 @@
 ---
 number: 7
 slug: coin-data
-title: Coin data and trading SMH
+title: SMH coin data and trading
 intro: Marketcap, Circulating supply, exchanges and more!
 type: reason
 ---

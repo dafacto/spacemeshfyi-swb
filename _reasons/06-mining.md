@@ -1,7 +1,7 @@
 ---
 number: 6
 slug: mining
-title: How do I mine SMH?
+title: How to mine SMH?
 intro: Spacemesh provides solutions for simple to complex mining!
 type: reason
 ---

@@ -1,7 +1,7 @@
 ---
 number: 10
 slug: resources
-title: Additional resources
+title: Resources
 intro: A list of the most popular official and community-provided Spacemesh resources
 type: reason
 ---
