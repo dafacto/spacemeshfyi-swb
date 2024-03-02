@@ -12,4 +12,4 @@ Instead, Spacemesh intends to implement a “Virtual Machine”, which supports 
 
 This means that the long-term challenge for Spacemesh will be to convince businesses to choose to build their dApps on Spacemesh, rather than competing blockchains, and to integrate a mechanism that accrues value to the SMH coin.
 
-Let’s now look at [Spacemesh tokenomics. →](/tokenomics)
+*Next* — Let’s now look at [Spacemesh tokenomics. →](/tokenomics)

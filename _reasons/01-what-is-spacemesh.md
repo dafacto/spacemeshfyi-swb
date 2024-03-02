@@ -20,4 +20,4 @@ An important difference between Spacemesh and other PoST blockchains, is that ev
 
 The project was started and received its initial funding in 2018, and launched its mainnet in July of 2023.
 
-Let’s now explore [Spacemesh’s intended utility. →](/intended-utility)
+*Next* — Let’s now explore [Spacemesh’s intended utility. →](/intended-utility)

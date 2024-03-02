@@ -13,4 +13,4 @@ There are wallet options from running a full node, to using a simple but secure 
 
 To learn more about SmeshWallet, its security and the trade-offs of using it alternatively or in combination with Smapp, [start here](https://db.smeshwallet.com/).
 
-You’ve got questions or want to get involved. Learn about the various [Spacemesh communities](/communities).
+*Next* — You’ve got questions or want to get involved. Join one of the various [Spacemesh communities.  →](/communities)

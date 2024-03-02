@@ -16,4 +16,4 @@ The following is a much-simplified explanation of the Spacemesh protocol and min
 1. **Eligibility** — A node establishes eligibility for participation in the *subsequent* epoch by interacting with “PoET” (Proof of Elapsed Time) servers, during  a 12-hour window in the *current* epoch, known as the “Cycle Gap”. During a Cycle Gap, a smeshing node will submit a proof to the PoET server that it maintained its dedicated disk space during the entirety of the previous epoch. Calculating that cryptographic proof involves the CPU and reading of the node’s postdata. This proof must be calculated and submitted within the 12-hour window. If successful, this establishes the node’s eligibility to participate in, and receive rewards, in particular “layers” in the *subsequent* epoch.
 
 
-Let’s now learn about [the team behind Spacemesh →](/team)
+*Next* — Let’s now learn about [the team behind Spacemesh →](/team)

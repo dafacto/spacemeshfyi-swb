@@ -13,4 +13,4 @@ Following are the most-asked questions related to coin data and trading.
 3. [Issuance schedule?](https://spacemesh.io/blog/spacemesh-issuance-schedule)
 4. [Where to buy?](https://www.coingecko.com/en/coins/spacemesh)
 
-Once you own some SMH, [you’ll need a wallet to store them!](/wallets)
+*Next* — Once you own some SMH, [you’ll need a wallet to store them! →](/wallets)
