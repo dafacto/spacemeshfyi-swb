@@ -16,10 +16,10 @@ function MyApp({ Component, pageProps }) {
           title: "Spacemesh FYI - A guide for beginners",
           description:
             "If you’re new to Spacemesh and curious to learn more, you’ve come to the right place. In just a few quick lessons, you’ll learn all the basics.",
-          site_name: "Spacemesh in 5-minutes",
+          site_name: "Spacemesh FYI",
           images: [
             {
-              url: "https://spacemesh.fyi/images/og.png",
+              url: "https://spacemesh.fyi/images/og-img.png",
               width: 1200,
               height: 630,
               alt: "Spacemesh FYI - A guide for beginners",
