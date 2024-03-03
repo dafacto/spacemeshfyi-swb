@@ -58,10 +58,6 @@ function MyApp({ Component, pageProps }) {
             href: "/safari-pinned-tab.svg",
             color: "#0f172a",
           },
-          {
-            rel: "manifest",
-            href: "/site.webmanifest",
-          },
         ]}
       />
       <Head>
