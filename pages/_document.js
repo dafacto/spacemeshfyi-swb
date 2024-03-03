@@ -1,37 +1,30 @@
-import Document, { Html, Head, Main, NextScript } from 'next/document';
+import Document, { Html, Head, Main, NextScript } from "next/document"
 
 class MyDocument extends Document {
   static async getInitialProps(ctx) {
-    const initialProps = await Document.getInitialProps(ctx);
-    return { ...initialProps };
+    const initialProps = await Document.getInitialProps(ctx)
+    return { ...initialProps }
   }
 
   render() {
     return (
-      <Html lang='en'>
-        <Head>
-          {/* <script async src="https://www.googletagmanager.com/gtag/js?id=UA-47932806-5"></script>
-              <script>
-                window.dataLayer = window.dataLayer || [];
-                function gtag(){dataLayer.push(arguments);}
-                gtag('js', new Date());
-                gtag('config', 'UA-47932806-5');
-              </script> */}
-        </Head>
+      <Html lang="en">
+        <Head />
         <body>
           <Main />
           <NextScript />
-					<script async="" defer="" src="https://sa.spacemesh.fyi/latest.js"></script>
-					<noscript
-						><img
-							src="https://sa.spacemesh.fyi/noscript.gif"
-							alt=""
-							referrerPolicy="no-referrer-when-downgrade"
-					/></noscript>
+          <script async defer src="https://sa.spacemesh.fyi/latest.js" />
+          <noscript>
+            <img
+              src="https://sa.spacemesh.fyi/noscript.gif"
+              alt=""
+              referrerPolicy="no-referrer-when-downgrade"
+            />
+          </noscript>
         </body>
       </Html>
-    );
+    )
   }
 }
 
-export default MyDocument;
+export default MyDocument

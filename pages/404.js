@@ -1,27 +1,27 @@
-import Link from 'next/link';
-import Footer from '../components/Footer';
+import Link from "next/link"
+import Footer from "../components/Footer"
 
 const Container = {
-  margin: '10px auto',
-  maxWidth: '600px',
-  textAlign: 'center',
-};
+  margin: "10px auto",
+  maxWidth: "600px",
+  textAlign: "center",
+}
 
 const Heading = {
-  margin: '30px 0',
-  fontSize: '4em',
+  margin: "30px 0",
+  fontSize: "4em",
   lineHeight: 1,
-  letterSpacing: '-1px',
-};
+  letterSpacing: "-1px",
+}
 
 const NotFound = () => {
   return (
     <>
       <header>
-        <div className='container narrow'>
-          <Link href='/'>
+        <div className="container narrow">
+          <Link href="/">
             <a>
-              <img src='/images/logo.png' />
+              <img src="/images/logo.png" alt="Home" />
             </a>
           </Link>
         </div>
@@ -39,7 +39,7 @@ const NotFound = () => {
       </main>
       <Footer />
     </>
-  );
-};
+  )
+}
 
-export default NotFound;
+export default NotFound

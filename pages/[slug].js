@@ -1,24 +1,24 @@
-import { getReasons, getBySlug } from '../lib/api';
-import { NextSeo } from 'next-seo';
-import Link from 'next/link';
-import markdownToHtml from '../lib/markdownToHtml';
-import cx from 'classnames';
-import Footer from '../components/Footer';
-import PostScroller from '../components/PostScroller';
+import { getReasons, getBySlug } from "../lib/api"
+import { NextSeo } from "next-seo"
+import Link from "next/link"
+import markdownToHtml from "../lib/markdownToHtml"
+import cx from "classnames"
+import Footer from "../components/Footer"
+import PostScroller from "../components/PostScroller"
 
 const Reason = ({ post, additionalPages = [] }) => {
-  const { number, title, intro, content } = post;
+  const { number, title, intro, content } = post
 
-  const isReason = number ? true : false;
+  const isReason = number ? true : false
 
   return (
     <>
       <NextSeo title={title} description={intro} />
       <header className={cx({ alt: number, bg: !number })}>
-        <div className='container narrow'>
-          <Link href='/'>
+        <div className="container narrow">
+          <Link href="/">
             <a>
-              <img src='/images/logo.png' />
+              <img src="/images/logo.png" alt="Home" />
             </a>
           </Link>
           <strong>Spacemesh FYI</strong>
@@ -29,37 +29,37 @@ const Reason = ({ post, additionalPages = [] }) => {
       <main>
         <section>
           <div
-            className='container narrow content'
+            className="container narrow content"
             dangerouslySetInnerHTML={{ __html: content }}
           />
         </section>
         {additionalPages.length ? (
-          <div className='bg'>
+          <div className="bg">
             <PostScroller items={additionalPages} horizontal={true} />
           </div>
         ) : null}
       </main>
       <Footer backToGuide={!isReason} />
     </>
-  );
-};
+  )
+}
 
-export default Reason;
+export default Reason
 
 export async function getStaticProps({ params }) {
   const post = getBySlug(params.slug, [
-    'number',
-    'title',
-    'intro',
-    'content',
-    'type',
-  ]);
-  const content = await markdownToHtml(post.content || '');
+    "number",
+    "title",
+    "intro",
+    "content",
+    "type",
+  ])
+  const content = await markdownToHtml(post.content || "")
 
-  let additionalPages = [];
+  let additionalPages = []
 
-  if (post.type === 'reason') {
-    additionalPages = getReasons(['number', 'slug', 'title', 'intro', 'type']);
+  if (post.type === "reason") {
+    additionalPages = getReasons(["number", "slug", "title", "intro", "type"])
   }
 
   return {
@@ -70,11 +70,11 @@ export async function getStaticProps({ params }) {
       },
       additionalPages,
     },
-  };
+  }
 }
 
 export async function getStaticPaths() {
-  const reasons = getReasons(['slug']);
+  const reasons = getReasons(["slug"])
 
   return {
     paths: reasons.map((item) => {
@@ -82,8 +82,8 @@ export async function getStaticPaths() {
         params: {
           slug: String(item.slug),
         },
-      };
+      }
     }),
     fallback: false,
-  };
+  }
 }
