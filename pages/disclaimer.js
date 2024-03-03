@@ -1,14 +1,14 @@
-import Link from 'next/link';
-import Footer from '../components/Footer';
+import Link from "next/link"
+import Footer from "../components/Footer"
 
 const Disclaimer = () => {
   return (
     <>
       <header>
-        <div className='container narrow'>
-          <Link href='/'>
+        <div className="container narrow">
+          <Link href="/">
             <a>
-              <img src='/images/logo.png' />
+              <img src="/images/logo.png" />
             </a>
           </Link>
           <h1>Not Financial Advise</h1>
@@ -17,7 +17,7 @@ const Disclaimer = () => {
       </header>
       <main>
         <section>
-          <div className='container narrow'>
+          <div className="container narrow content">
             <p>
               The information contained on this website and the resources
               mentioned on this website is not intended as, and shall not be
@@ -46,7 +46,7 @@ const Disclaimer = () => {
       </main>
       <Footer hideCta={true} />
     </>
-  );
-};
+  )
+}
 
-export default Disclaimer;
+export default Disclaimer
