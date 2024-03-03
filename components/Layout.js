@@ -1,30 +1,30 @@
-import PostScroller from './PostScroller';
-import Footer from './Footer';
-import Link from 'next/link';
+import PostScroller from "./PostScroller"
+import Footer from "./Footer"
+import Link from "next/link"
 
 const Layout = ({ content, children }) => {
   return (
     <>
-      <header className='bg'>
-        <div className='container narrow'>
-          <Link href='/'>
+      <header className="bg">
+        <div className="container narrow">
+          <Link href="/">
             <a>
-              <img src='/images/logo.png' />
+              <img src="/images/logo.png" alt="Home" />
             </a>
           </Link>
           {children}
         </div>
       </header>
       <main>
-        <section className='bg'>
-          <div className='container'>
+        <section className="bg">
+          <div className="container">
             <PostScroller items={content} />
           </div>
         </section>
       </main>
       <Footer />
     </>
-  );
-};
+  )
+}
 
-export default Layout;
+export default Layout

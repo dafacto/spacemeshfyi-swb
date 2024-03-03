@@ -1,42 +1,40 @@
-import Link from 'next/link';
+import Link from "next/link"
 
 const Footer = ({ backToGuide = false, hideCta = false }) => {
-  const callToAction = 'Ready to take the plunge with Spacemesh?';
-  const link = 'https://spacemesh.io';
-  const linkText = 'Get started now';
-
   return (
     <footer>
       {!hideCta ? (
-        <div className='container narrow'>
-          <h2>{callToAction}</h2>
-          <Link href={link}>
-            <a className='button'>{linkText}</a>
+        <div className="container narrow">
+          <h2>Ready to take the plunge with Spacemesh?</h2>
+          <Link href="https://spacemesh.io">
+            <a className="button">Get started now</a>
           </Link>
         </div>
       ) : null}
       <ul>
         <li>
-          <Link href='/about'>
+          <Link href="/about">
             <a>About</a>
           </Link>
         </li>
         <li>
-          <Link href='/disclaimer'>
+          <Link href="/disclaimer">
             <a>Disclaimer</a>
           </Link>
         </li>
         <li>
           <a
-            href='mailto:dafacto@proton.me?subject=I have a question about Spacemesh'
-            className='contact'
+            href="mailto:dafacto@proton.me?subject=I have a question about Spacemesh"
+            className="contact"
+            target="_blank"
+            rel="noreferrer noopener"
           >
             Get in touch
           </a>
         </li>
       </ul>
     </footer>
-  );
-};
+  )
+}
 
-export default Footer;
+export default Footer

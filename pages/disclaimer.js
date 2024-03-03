@@ -8,7 +8,7 @@ const Disclaimer = () => {
         <div className="container narrow">
           <Link href="/">
             <a>
-              <img src="/images/logo.png" />
+              <img src="/images/logo.png" alt="Home" />
             </a>
           </Link>
           <h1>Not Financial Advise</h1>

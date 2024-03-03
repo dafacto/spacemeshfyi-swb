@@ -10,7 +10,7 @@ const About = () => {
         <div className="container narrow">
           <Link href="/">
             <a>
-              <img src="/images/logo.png" />
+              <img src="/images/logo.png" alt="Home" />
             </a>
           </Link>
           <h1>About this site</h1>
@@ -33,16 +33,38 @@ const About = () => {
             </p>
             <p>
               I’m also the creator of{" "}
-              <a href="https://smeshwallet.com">SmeshWallet</a>, the popular
-              free, and easy-to-use web wallet for Spacemesh.
+              <a
+                href="https://smeshwallet.com"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                SmeshWallet
+              </a>
+              , the popular free, and easy-to-use web wallet for Spacemesh.
             </p>
             <p>
               You can learn more about me{" "}
-              <a href="https://dafacto.com/about">at my personal site</a>, find
-              me <a href="http://twitter.com/dafacto">on Twitter</a>, or{" "}
+              <a
+                href="https://dafacto.com/about"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                at my personal site
+              </a>
+              , find me{" "}
+              <a
+                href="http://twitter.com/dafacto"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                on Twitter
+              </a>
+              , or{" "}
               <a
                 href="mailto:dafacto@proton.me?subject=I have a question about Spacemesh"
                 className="contact"
+                target="_blank"
+                rel="noreferrer noopener"
               >
                 send an email
               </a>
