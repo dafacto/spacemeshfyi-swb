@@ -1,7 +1,7 @@
 ---
 number: 2
 slug: intended-utility
-title: What its intended utility?
+title: What’s its intended utility?
 intro: A global decentralized computer!
 type: reason
 ---
