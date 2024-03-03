@@ -8,7 +8,7 @@ type: reason
 
 Following are the most-asked questions related to coin data and trading.
 
-1. [Marketcap?](https://tater-tracker.com)
+1. [Marketcap?](https://tater-tracker.com) (Or download [this app](https://x.com/SpacemeshRT/status/1720071272355246288?s=20).)
 2. [Circulating supply?](https://dash.spacemesh.io)
 3. [Issuance schedule?](https://spacemesh.io/blog/spacemesh-issuance-schedule)
 4. [Where to buy?](https://www.coingecko.com/en/coins/spacemesh)
