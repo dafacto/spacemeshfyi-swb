@@ -21,6 +21,12 @@ type: reason
 - *[Team24](https://team24.co)* — A paid service that provides Smeshers with a 24-hour cycle gap, as opposed to the default 12-hour window.
 - *[Layer Timeline](http://fcmx.net/sm-eligibilities/)* — Enter your eligible rewards layers, and let this website tell you when to expect rewards.
 - *[Hardware Planner](https://plan.smesh.online/)* — An interactive website for planning your Smeshing setup, allowing you to enter the specifics of your hardware to confirm feasibility.
+
+**Guides**
+
 - *Video Tutorials* — The two primary channels for video instruction include [Miner on Demand](https://www.youtube.com/@minerondemand) (Windows) and [Hake Hardware](https://www.youtube.com/@hakehardware) (Unix).
+- *[Running multiple nodes on a Mac, and creating postdata with cloud GPUs](https://dafacto.com/2023/how-to-run-multiple-spacemesh-nodes-on-macos)*
+- *[Running public/private nodes on a Mac](https://snapz.pro/s/spacemesh-public-private-two-machine-config.txt)*
+- *[Running one node managing four plots on a Mac](https://snapz.pro/s/upgrading-to-spacemesh-1.4-on-macos.html)*
 
 Still have questions? Feel free to [contact me](/about), or visit one of the [Spacemesh communities](/communities).
