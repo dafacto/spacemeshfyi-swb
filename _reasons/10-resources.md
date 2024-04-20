@@ -25,8 +25,8 @@ type: reason
 **Guides**
 
 - *Video Tutorials* — The two primary channels for video instruction include [Miner on Demand](https://www.youtube.com/@minerondemand) (Windows) and [Hake Hardware](https://www.youtube.com/@hakehardware) (Unix). (HakeHardware also has some good [written content](https://hakedev.substack.com/) as well.)
-- *[Running nodes on a Mac & creating data with cloud GPUs](https://dafacto.com/2023/how-to-run-multiple-spacemesh-nodes-on-macos)*
-- *[Running public/private nodes on a Mac](https://snapz.pro/s/spacemesh-public-private-two-machine-config.txt)*
-- *[Running one node, managing four plots, on a Mac](https://snapz.pro/s/upgrading-to-spacemesh-1.4-on-macos.html)*
+- *[Creating postdata with cloud GPUs, and a journey of running nodes on a Mac](https://dafacto.com/2023/how-to-run-multiple-spacemesh-nodes-on-macos)*
+- *[Running a private/public node setup.](https://snapz.pro/s/spacemesh-public-private-two-machine-config.txt)*
+- *[Running a “1:n” setup, with one node managing four plots.](https://snapz.pro/s/upgrading-to-spacemesh-1.4-on-macos.html)*
 
 Still have questions? Feel free to [contact me](/about), or visit one of the [Spacemesh communities](/communities).
