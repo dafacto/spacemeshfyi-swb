@@ -16,10 +16,11 @@ type: reason
 **Community contributions**
 
 - *[SmeshWallet](https://smeshwallet.com)* — Easy to use web wallet that’s the perfect alternative or complement to Smapp.
+- *[Event Timeline](https://dash.smeshit.com)* — Fantastic data dashboard. You can add /coinbase/sm1qqqq... to the URL to see your own coinbase data.
 - *[Tater-Tracker](https://tater-tracker.com/)* — A useful alternative explorer for Spacemesh.
 - *[Spacemesh Rewards Tracker](https://x.com/SpacemeshRT/status/1737225257034109049?s=20)* — A mobile app for tracking a wide range of Spacemesh data.
 - *[Team24](https://team24.co)* — A paid service that provides Smeshers with a 24-hour cycle gap, as opposed to the default 12-hour window.
-- *[Layer Timeline](http://fcmx.net/sm-eligibilities/)* — Enter your eligible rewards layers, and let this website tell you when to expect rewards.
+- *[Layer Eligibility Timeline](http://fcmx.net/sm-eligibilities/)* — Enter your eligible rewards layers, and let this website tell you when to expect rewards.
 - *[Hardware Planner](https://plan.smesh.online/)* — An interactive website for planning your Smeshing setup, allowing you to enter the specifics of your hardware to confirm feasibility.
 
 **Guides**
