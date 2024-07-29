@@ -16,6 +16,7 @@ type: reason
 **Community contributions**
 
 - *[SmeshWallet](https://smeshwallet.com)* — Easy to use web wallet that’s the perfect alternative or complement to Smapp.
+- *[Spacemesh Tokenomics](https://smhtokenomics.com)* — An interactive website for visually exploring Spacemesh tokenomics and circulating supply.
 - *[Tater-Tracker](https://tater-tracker.com/)* — A useful alternative explorer for Spacemesh.
 - *[Spacemesh Rewards Tracker](https://x.com/SpacemeshRT/status/1737225257034109049?s=20)* — A mobile app for tracking a wide range of Spacemesh data.
 - *[Team24](https://team24.co)* — A paid service that provides Smeshers with a 24-hour cycle gap, as opposed to the default 12-hour window.
